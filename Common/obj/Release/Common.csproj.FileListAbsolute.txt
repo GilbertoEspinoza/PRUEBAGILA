@@ -1,0 +1,93 @@
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\Common.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\Common.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.Helpers.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.Mvc.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.WebPages.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.Helpers.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.Mvc.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.WebPages.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\obj\Release\Common.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\Common\obj\Release\Common.pdb
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\Common.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\Common.pdb
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.Helpers.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.WebPages.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.Helpers.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.Mvc.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.WebPages.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\obj\Release\Common.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\Common\obj\Release\Common.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\Common.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\System.Web.Helpers.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\System.Web.WebPages.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\System.Web.Helpers.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\System.Web.WebPages.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\obj\Release\Common.csprojAssemblyReference.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\obj\Release\Common.csproj.CopyComplete
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\obj\Release\Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Common\obj\Release\Common.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\Common.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.Helpers.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.WebPages.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.Helpers.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.Mvc.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.WebPages.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\obj\Release\Common.csprojAssemblyReference.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\obj\Release\Common.csproj.CopyComplete
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\obj\Release\Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\Common\obj\Release\Common.pdb
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\Common.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\Common.pdb
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.Helpers.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.Mvc.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.WebPages.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.Razor.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.Helpers.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.Mvc.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.WebPages.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.Razor.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\es\System.Web.Helpers.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\es\System.Web.Mvc.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\es\System.Web.WebPages.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\es\System.Web.Razor.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Common\bin\Release\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Common\obj\Release\Common.csproj.AssemblyReference.cache
+C:\Users\conta\source\repos\SaludDigna\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Users\conta\source\repos\SaludDigna\Common\obj\Release\Common.csproj.CopyComplete
+C:\Users\conta\source\repos\SaludDigna\Common\obj\Release\Common.dll
+C:\Users\conta\source\repos\SaludDigna\Common\obj\Release\Common.pdb

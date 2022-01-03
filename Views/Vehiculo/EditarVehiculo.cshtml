@@ -1,0 +1,446 @@
+﻿@model Entities.Vehiculo
+@{
+    ViewBag.Title = "Editar vehículo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- begin:: Subheader -->
+<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+    <div class="kt-container  kt-container--fluid ">
+        <div class="kt-subheader__main">
+            <h3 class="kt-subheader__title"><i class="flaticon-edit-1">&ensp;</i>@ViewData["Title"]</h3>
+            <span class="kt-subheader__separator kt-hidden"></span>
+        </div>
+    </div>
+</div>
+<!-- end:: Subheader -->
+<!-- begin:: Content -->
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <!--begin::Portlet-->
+            <form class="kt-form kt-form--label-right" id="kt_form">
+                <div class="kt-portlet" id="kt_page_portlet">
+                    <div class="kt-portlet__head">
+                        <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title">Editar vehículo</h3>
+                        </div>
+
+                        <div class="kt-portlet__head-toolbar">
+
+                            <a href="@Url.Action("Index", "Vehiculos")" class="btn btn-secondary kt-margin-r-10">
+                                <i class="la la-close"></i>
+                                <span class="kt-hidden-mobile">Cancelar</span>
+                            </a>
+
+                            <button type="submit" id="btnSave" class="btn btn-primary">
+                                <i class="la la-check"></i>
+                                <span class="kt-hidden-mobile">Guardar</span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <!--begin::Form-->
+                    <div class="kt-portlet__body">
+
+                        <div class="form-group form-group-last kt-hide">
+                            <div class="alert alert-danger" role="alert" id="kt_form_msg">
+                                <div class="alert-icon"><i class="flaticon-warning"></i></div>
+                                <div class="alert-text">
+                                    Error! Por favor verifique el formulario.
+                                </div>
+                                <div class="alert-close">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true"><i class="la la-close"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            @Html.Hidden("Id", Model.Id)
+                            @Html.Hidden("Activo", Model.Activo)
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.Nombre)
+                                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+                                @*<span class="form-text text-muted">Introduzca un nombre</span>*@
+                            </div>
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.Llantas)
+                                @Html.TextBoxFor(model => model.Llantas, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Llantas, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.Potencia)
+                                @Html.TextBoxFor(model => model.Potencia, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Potencia, "", new { @class = "text-danger" })
+                            </div>
+
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.IdTipo)
+                                @Html.DropDownList("IdTipo", null, htmlAttributes: new { @class = "form-control kt_selectpicker", data_live_search = "true", data_size = "5", id = "IdTipo", onchange = "getAccesorios()" })
+                                @Html.ValidationMessageFor(model => model.IdTipo, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.IdTipoCombustible)
+                                @Html.DropDownList("IdTipoCombustible", null, htmlAttributes: new { @class = "form-control kt_selectpicker", data_live_search = "true", data_size = "5", id = "IdTipoCombustible" })
+                                @Html.ValidationMessageFor(model => model.IdTipoCombustible, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.Placas)
+                                @Html.TextBoxFor(model => model.Placas, new { @class = "form-control" })
+                                <span class="glyphicon glyphicon-text-color form-control-feedback"></span>
+                                @Html.ValidationMessageFor(model => model.Placas, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.IdMarca)
+                                @Html.DropDownList("IdMarca", null, htmlAttributes: new { @class = "form-control kt_selectpicker", data_live_search = "true", data_size = "5", id = "IdMarca", onchange = "getCatalogLinea()" })
+                                @Html.ValidationMessageFor(model => model.IdMarca, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.IdLinea)
+                                @Html.DropDownList("IdLinea", null, htmlAttributes: new { @class = "form-control kt_selectpicker", data_live_search = "true", data_size = "5", id = "IdLinea" })
+                                @Html.ValidationMessageFor(model => model.IdLinea, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.Modelo)
+                                @Html.TextBoxFor(model => model.Modelo, new { @class = "form-control" })
+                                <span class="glyphicon glyphicon-text-color form-control-feedback"></span>
+                                @Html.ValidationMessageFor(model => model.Modelo, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.Serial)
+                                @Html.TextBoxFor(model => model.Serial, new { @class = "form-control" })
+                                <span class="glyphicon glyphicon-text-color form-control-feedback"></span>
+                                @Html.ValidationMessageFor(model => model.Serial, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.IdTipoUso)
+                                @Html.DropDownList("IdTipoUso", null, htmlAttributes: new { @class = "form-control kt_selectpicker", data_live_search = "true", data_size = "5", id = "IdTipoUso" })
+                                @Html.ValidationMessageFor(model => model.IdTipoUso, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.IdAccesorio)
+                                @Html.DropDownList("IdAccesorio", null, htmlAttributes: new { @class = "form-control kt_selectpicker", id = "IdAccesorio", data_live_search = "true", data_size = "5" })
+                                @Html.ValidationMessageFor(model => model.IdAccesorio, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12"><hr></div>
+                        </div>
+                        @Html.Hidden("RedirectTo", Url.Action("Index", "Vehiculo"));
+
+                    </div>
+                    <!--end::Form-->
+                </div>
+                <!--end::Portlet-->
+
+            </form>
+        </div>
+    </div>
+</div>
+<!-- end:: Content -->
+
+@section Scripts {
+    @Scripts.Render("~/FomatosES/js")
+    @Scripts.Render("~/BootstrapSelect/js")
+
+    <script type="text/javascript">
+        var KTFormWidgets = function () {
+                // Private functions
+                var validator;
+                var initValidation = function () {
+                    validator = $("#kt_form").validate({
+                        // define validation rules
+                        rules: {
+                            Nombre: {
+                                required: true
+                            },
+                            IdTipo: {
+                                required: true,
+                                min: 1
+                            },
+                            IdTipoUso: {
+                                required: true,
+                                min: 1
+                            },
+                            IdTipoCombustible: {
+                                required: true,
+                                min: 1
+                            },
+                            IdMarca: {
+                                required: true,
+                                min: 1
+                            },
+                            IdLinea: {
+                                required: true,
+                                min: 1
+                            },
+                            Llantas: {
+                                required: true
+                            },
+                            Potencia: {
+                                required: true
+                            },
+                            Modelo: {
+                                required: true
+                            },
+                            Placas: {
+                                required: true
+                            },
+                            Serial: {
+                                serial: true,
+                                minlength: 16,
+                                maxlength: 18
+                            }
+
+                        },
+
+                        //display error alert on form submit
+                        invalidHandler: function (event, validator) {
+                            var alert = $('#kt_form_msg');
+                            alert.parent().removeClass('kt-hide');
+                            swal.fire({
+                                "title": "",
+                                "text": "HAY ALGUNOS ERRORES EN SU ENVÍO. POR FAVOR CORRÍJALOS.",
+                                "type": "error",
+                                "confirmButtonClass": "btn btn-secondary kt-btn kt-btn--wide",
+                                "onClose": function (e) {
+                                    KTUtil.scrollTo("form", -200);
+                                }
+                            });
+                        },
+
+                        submitHandler: function (form) {
+                            KTApp.block('#kt_form', {
+                                overlayColor: '#000000',
+                                type: 'v2',
+                                state: 'primary',
+                                message: 'Procesando...'
+                            });
+
+                            var dataString = new FormData($("#kt_form").get(0));
+                            var urlr = $("#RedirectTo").val();
+                            $.ajax({
+                                type: "POST",
+                                url: '@Url.Action("GuardarVehiculo", "Vehiculo")',
+                                dataType: "json",
+                                data: dataString,
+                                contentType: false,
+                                processData: false,
+                                success: function (resp) {
+                                    if (resp.mensaje == 1) {
+                                        Swal.fire({
+                                            title: 'GUARDADO',
+                                            text: "VEHÍCULO GUARDADO.!!!",
+                                            type: 'success',
+                                            showCancelButton: false,
+                                        }).then((result) => {
+                                            location.href = urlr;
+                                        });
+                                    }
+                                    else {
+                                        setTimeout(function () {
+                                            KTApp.unblock('#kt_form');
+                                        }, 500);
+
+                                        KTUtil.scrollTo("form", -200);
+                                        swal.fire("ERROR AL GUARDAR", resp.errorMensaje.toUpperCase() + ".", "warning");
+                                    }
+                                },
+                                error: function (xhr, desc, err) {
+                                    setTimeout(function () {
+                                        KTApp.unblock('#kt_form');
+                                    }, 500);
+                                    //swal.fire("VALIDAZACIÓN", "DETALLE: " + desc + "\nError: " + err + "\n" + xhr.responseText + ".", "error");
+                                    alert("DETALLE: " + desc + "\nError: " + err + "\n" + xhr.responseText + ".");
+                                }
+                            });
+
+                            return false;
+                        }
+                    });
+                }
+
+                return {
+                    // public functions
+                    init: function () {
+                        initValidation();
+                    }
+                };
+            }();
+
+
+        jQuery(document).ready(function () {
+
+            KTFormWidgets.init();
+
+            $('#Llantas').numeric({ negative: false, decimal: false });
+            $('#Potencia').numeric({ negative: false, decimal: false });
+
+            $('input').click(function () {
+                this.select();
+            });
+
+            $('input[type=text]').keyup(function() {
+                $(this).val($(this).val().toUpperCase());
+            });
+
+        });
+
+        function clear() {
+            $("#Nombre").val('');
+            $('#IdTipo').prop('selectedIndex', 0);
+            $("#IdTipo").selectpicker('refresh');
+            $('#IdTipoUso').prop('selectedIndex', 0);
+            $("#IdTipoUso").selectpicker('refresh');
+            $('#IdTipoCombustible').prop('selectedIndex', 0);
+            $("#IdTipoCombustible").selectpicker('refresh');
+            $("#Llantas").val('');
+            $("#Modelo").val('');
+            $('#IdMarca').prop('selectedIndex', 0);
+            $("#IdMarca").selectpicker('refresh');
+            $('#IdLinea').html();
+            $('#IdLinea').html('<option value="0">- SELECCIONE UN MARCA -</option>');
+            $("#IdLinea").selectpicker('refresh');
+            $("#Potencia").val('');
+            $('#IdAccesorio').html();
+            $('#IdAccesorio').html('<option value="0">- SIN INFORMACIÓN -</option>');
+            $("#IdAccesorio").selectpicker('refresh');
+        }
+
+        function getCatalogLinea() {
+
+            var idMarca = $('#IdMarca').val();
+            if (idMarca == null || idMarca == undefined || idMarca.length == 0) {
+                idMarca = 0;
+            }
+
+            if (idMarca > 0) {
+                KTApp.blockPage({
+                    overlayColor: '#000000',
+                    type: 'v2',
+                    state: 'primary',
+                    message: 'Buscando...'
+                });
+                var parameters = { "idMarca": idMarca };
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: '@Url.Action("GetJsonLineas")',
+                    data: parameters
+                })
+                 .done(function (data) {
+                     if (data) {
+
+                         $('#IdLinea').html();
+                         var optionsItems = '<option value="">- SELECCIONE -</option>';
+
+                         for (var i = 0; i < data.length; i++) {
+                             optionsItems += '<option value="' + data[i].Value + '">' + data[i].Text + '</option>\n';
+                         }
+
+                         $("#IdLinea").html(optionsItems);
+
+                         if (data) {
+                             $("#IdLinea").prop("selectedIndex", "0");
+                         }
+                         $("#IdLinea").selectpicker('refresh');
+
+                     }
+                 })
+                 .fail(function (jqXHR, textStatus, errorThrown) {
+                     swal.fire('ERROR', 'OCURRIÓ UN ERROR AL ACCEDER A LA INFORMACIÓN ' + errorThrown + ' ' + textStatus, 'error');
+                 })
+                 .always(function (data, textStatus, errorThrown) {
+                 });
+                setTimeout(function () {
+                    KTApp.unblockPage();
+                }, 500);
+            }
+            else {
+
+                $('#IdLinea').html();
+                var idLinea = '<option value="0">- SELECCIONE UNA MARCA -</option>';
+                $("#IdLinea").html(idLinea);
+                $("#IdLinea").selectpicker('refresh');
+            }
+        }
+
+        function getAccesorios() {
+
+            var idTipo = $('#IdTipo').val();
+            if (idTipo == null || idTipo == undefined || idTipo.length == 0) {
+                idTipo = 0;
+            }
+
+            if (idTipo > 0) {
+                KTApp.blockPage({
+                    overlayColor: '#000000',
+                    type: 'v2',
+                    state: 'primary',
+                    message: 'Buscando...'
+                });
+                var parameters = { "id": 0, "idTipo": idTipo };
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: '@Url.Action("GetJsonVehiculos")',
+                    data: parameters
+                })
+                 .done(function (data) {
+                     if (data.length > 0) {
+
+                         $('#idAccesorio').html();
+                         var optionsItems = '<option value="0">- SELECCIONE -</option>';
+
+                         for (var i = 0; i < data.length; i++) {
+                             optionsItems += '<option value="' + data[i].Value + '">' + data[i].Text + '</option>\n';
+                         }
+
+                         $("#IdAccesorio").html(optionsItems);
+
+                         if (data) {
+                             $("#IdAccesorio").prop("selectedIndex", "0");
+                         }
+                         $("#IdAccesorio").selectpicker('refresh');
+
+                     } else {
+                         $('#IdAccesorio').html();
+                         var accesorioItems = '<option value="0">SIN INFORMACIÓN</option>';
+                         $("#IdAccesorio").html(accesorioItems);
+                         $("#IdAccesorio").selectpicker('refresh');
+                     }
+                 })
+                 .fail(function (jqXHR, textStatus, errorThrown) {
+                     swal.fire('ERROR', 'OCURRIÓ UN ERROR AL ACCEDER A LA INFORMACIÓN ' + errorThrown + ' ' + textStatus, 'error');
+                 })
+                 .always(function (data, textStatus, errorThrown) {
+                 });
+                setTimeout(function () {
+                    KTApp.unblockPage();
+                }, 500);
+            }
+            else {
+                $('#IdAccesorio').html();
+                var accesorioItems = '<option value="0">SIN INFORMACIÓN</option>';
+                $("#IdAccesorio").html(accesorioItems);
+                $("#IdAccesorio").selectpicker('refresh');
+            }
+        }
+
+    </script>
+}

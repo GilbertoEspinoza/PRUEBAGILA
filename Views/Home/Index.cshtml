@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Tablero";
+}
+<!-- begin:: Subheader -->
+<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+    <div class="kt-container  kt-container--fluid ">
+        <div class="kt-subheader__main">
+            <h3 class="kt-subheader__title"><i class="flaticon-analytics">&ensp;</i>@ViewData["Title"]</h3>
+            <span class="kt-subheader__separator kt-hidden"></span>
+        </div>
+    </div>
+</div>
+<!-- end:: Subheader -->
+<!-- begin:: Content -->
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+
+
+    <div class="row">
+        <div class="col-lg-12 col-xl-12">
+            <div class="alert alert-light alert-elevate fade show" role="alert">
+                <div class="alert-icon"><i class="flaticon-questions-circular-button kt-font-brand"></i></div>
+                <div class="alert-text">
+                    @ViewData["Message"]
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+</div>
+    <!-- end:: Content -->
+@section Scripts {
+    <script type="text/javascript">
+        var datas = [];
+
+        //for (var i = 0; i < 3; i++) {
+            datas.push(100,56);
+        //}
+
+        var KTDashboard = function (datos) {
+
+            var widgetTechnologiesChart = function (dat=datos) {
+                if ($('#kt_widget_technologies_chart').length == 0) {
+                    return;
+                }
+
+                //var randomScalingFactor = function () {
+                //    return Math.round(Math.random() * 100);
+                //};
+
+                var config = {
+                    type: 'doughnut',
+                    data: {
+                        datasets: [{
+                            data: [dat[1], dat[2],
+                            backgroundColor: [
+                                KTApp.getBaseColor('shape', 3),
+                                KTApp.getStateColor('brand')
+                            ]
+                        }],
+                        labels: [
+                            'CSS',
+                            'HTML'
+                        ]
+                    },
+                    options: {
+                        cutoutPercentage: 75,
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        legend: {
+                            display: false,
+                            position: 'top',
+                        },
+                        title: {
+                            display: false,
+                            text: 'Technology'
+                        },
+                        animation: {
+                            animateScale: true,
+                            animateRotate: true
+                        },
+                        tooltips: {
+                            enabled: true,
+                            intersect: false,
+                            mode: 'nearest',
+                            bodySpacing: 5,
+                            yPadding: 10,
+                            xPadding: 10,
+                            caretPadding: 0,
+                            displayColors: false,
+                            backgroundColor: KTApp.getStateColor('brand'),
+                            titleFontColor: '#ffffff',
+                            cornerRadius: 4,
+                            footerSpacing: 0,
+                            titleSpacing: 0
+                        }
+                    }
+                };
+
+                var ctx = document.getElementById('kt_widget_technologies_chart').getContext('2d');
+                var myDoughnut = new Chart(ctx, config);
+            }
+           
+            return {
+                init: function (data) {
+                    widgetTechnologiesChart(data);
+                }
+            };
+        }();
+
+
+        jQuery(document).ready(function () {
+            KTDashboard.init(datas); 
+        });
+        
+    </script>
+    }

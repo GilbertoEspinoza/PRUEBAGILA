@@ -1,0 +1,112 @@
+﻿@{
+    string controlador = ViewContext.RouteData.Values["Controller"].ToString().ToLower();
+
+    ViewBag.per = Session["modulos"];
+    var seccion = "";
+    var controll = "";
+    var controllP = "";
+    var cssClassP = "";
+    var actio = "";
+    var menu = "";
+    var band = 0;
+    var cont = 0;
+}
+<li class="kt-menu__item @Html.IsSelected(controller: "Home")" aria-haspopup="true">
+    <a href="@Url.Action("Index", "Home")" class="kt-menu__link">
+        <i class="kt-menu__link-icon flaticon-analytics"></i>
+        <span class="kt-menu__link-text">Tablero</span>
+    </a>
+</li>
+@for (var i = 0; i < ViewBag.per.Count; i++)
+{
+    controllP = ViewBag.per[i].ControllerTag;
+    cssClassP = ViewBag.per[i].CssClassP;
+    controll = ViewBag.per[i].Controller;
+    actio = ViewBag.per[i].Action;
+
+    if (ViewBag.per[i].Tipo != 3)
+    {
+        if (i == 0)
+        {
+            seccion = ViewBag.per[i].Tag;
+            <li class="kt-menu__section">
+                <h4 class="kt-menu__section-text">@seccion</h4>
+                <i class="kt-menu__section-icon flaticon-more-v2"></i>
+            </li>
+        }
+        else
+        {
+            if (ViewBag.per[i].Tag != seccion)
+            {
+                <li class="kt-menu__section">
+                    <h4 class="kt-menu__section-text">@ViewBag.per[i].Tag</h4>
+                    <i class="kt-menu__section-icon flaticon-more-v2"></i>
+                </li>
+
+                seccion = ViewBag.per[i].Tag;
+            }
+        }
+
+        cont = i;
+
+        if (!String.IsNullOrEmpty(ViewBag.per[i].MenuP) && ViewBag.per[i].Tipo != 3)
+        {
+            <li class="kt-menu__item  kt-menu__item--submenu @Html.IsSelected(controller: controllP, cssClass: cssClassP)" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+                <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                    <i class="kt-menu__link-icon @ViewBag.per[i].IconP"></i>
+                    <span class="kt-menu__link-text"> @ViewBag.per[i].MenuP</span><i class="kt-menu__ver-arrow la la-angle-right"></i>
+                </a>
+                <div class="kt-menu__submenu ">
+                    <span class="kt-menu__arrow"></span>
+                    <ul class="kt-menu__subnav">
+
+                        @for (var x = i; x < ViewBag.per.Count; x++)
+                        {
+                            controll = ViewBag.per[x].Controller;
+                            actio = ViewBag.per[x].Action;
+
+                            if (ViewBag.per[cont].MenuP == ViewBag.per[x].MenuP && ViewBag.per[x].Tipo != 3)
+                            {
+                                <li class="kt-menu__item @Html.IsSelected(controller: controll, cssClass: "kt-menu__item--active")" aria-haspopup="true">
+                                    <a href="@Url.Action(actio, controll)" class="kt-menu__link ">
+                                        <i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>
+                                        <span class="kt-menu__link-text">@ViewBag.per[x].ModuloName</span>
+                                    </a>
+                                </li>
+                            }
+
+                            if (band == 0)
+                            {
+                                menu = ViewBag.per[x].MenuP;
+                                band = 1;
+                            }
+                            else
+                            {
+                                if (ViewBag.per[x].MenuP != menu)
+                                {
+                                    i--;
+                                    band = 0;
+                                    break;
+                                }
+                            }
+
+                            i++;
+                        }
+
+
+                    </ul>
+                </div>
+            </li>
+        }
+        else
+        {
+            <li class="kt-menu__item @Html.IsSelected(controller: controll)" aria-haspopup="true">
+                <a href="@Url.Action(actio, controll)" class="kt-menu__link">
+                    <i class="kt-menu__link-icon @ViewBag.per[i].Icon"></i>
+                    <span class="kt-menu__link-text">@ViewBag.per[i].ModuloName</span>
+                </a>
+            </li>
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Error500";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="middle-box text-center animated fadeInDown">
+                <h1>500</h1>
+                <h3 class="font-bold">Error de servidor interno</h3>
+
+                <div class="error-desc">
+                    El servidor encontró algo inesperado que no le permitió completar la solicitud. Pedimos disculpas.<br />
+                    Puedes volver a la página principal: <br /><a href="@Url.Action("Index", "Home")" class="btn btn-primary m-t">Inicio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

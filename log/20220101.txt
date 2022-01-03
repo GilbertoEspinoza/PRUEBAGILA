@@ -1,0 +1,19 @@
+DAO.TipoVehiculos 22:48:23
+ObtenerListaCombo - Could not find stored procedure 'sp_ComboEditarTipoVehiculos'.
+
+DAO.Usuarios 23:08:06
+Login - Unable to open the physical file "C:\Users\conta\source\repos\PRUEBAGILA\App_Data\dbGila.mdf". Operating system error 32: "32(El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.)".
+An attempt to attach an auto-named database for file C:\Users\conta\source\repos\PRUEBAGILA\App_Data\dbGila.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+
+DAO.Marcas 23:19:45
+ObtenerLista - Could not find stored procedure 'sp_ObtenerListaMarca'.
+
+DAO.TipoVehiculos 23:31:13
+ObtenerLista - Could not find stored procedure 'sp_ObtenerListaTipoVehiculos'.
+
+DAO.TipoUsoVehiculos 23:40:33
+ObtenerListaCombo - Could not find stored procedure 'sp_ComboEditarFlotillaTipoUsos'.
+
+DAO.Combustibles 23:43:26
+ObtenerLista - Could not find stored procedure 'sp_ObtenerListaCombustible'.
+

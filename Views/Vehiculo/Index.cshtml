@@ -1,0 +1,405 @@
+﻿@{
+    ViewBag.Title = "Vehículos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- begin:: Subheader -->
+<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+    <div class="kt-container  kt-container--fluid ">
+        <div class="kt-subheader__main">
+            <h3 class="kt-subheader__title"><i class="flaticon-truck">&ensp;</i>@ViewData["Title"]</h3>
+            <span class="kt-subheader__separator kt-hidden"></span>
+        </div>
+    </div>
+</div>
+<!-- end:: Subheader -->
+<!-- begin:: Content -->
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+    <!--begin::Dashboard 3-->
+    <!--begin::Row-->
+    <!-- Main view  -->
+    <div class="kt-portlet kt-portlet--mobile">
+        <div class="kt-portlet__head kt-portlet__head--lg">
+            <div class="kt-portlet__head-label">
+                <h3 class="kt-portlet__head-title">
+                    Listado de vehículos
+                    <small>vehículos registrados en el sistema</small>
+                </h3>
+            </div>
+            <div class="kt-portlet__head-toolbar">
+                <div class="kt-portlet__head-wrapper">
+                    @if (ViewBag.Add)
+                    {
+                        <a href="@Url.Action("NuevoVehiculo", "Vehiculo")" class="btn btn-default btn-bold btn-upper btn-font-sm">
+                            <i class="flaticon2-add-1"></i>
+                            VEHÍCULO NUEVO
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="kt-portlet__body">
+            <!--begin: Search Form -->
+            <div class="kt-form kt-fork--label-right kt-margin-t-20 kt-margin-b-10">
+                <div class="row align-items-center">
+
+                    <div class="col-xl-8 order-2 order-xl-1">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-6 kt-margin-b-20-tablet-and-mobile">
+                                <div class="kt-form__group kt-form__group--inline">
+                                    <label class="col-form-label col-lg-3 col-sm-12">Tipo:</label>
+                                    <div class="kt-form__control">
+                                        @Html.DropDownList("tipo", (IEnumerable<SelectListItem>)ViewBag.tipo, "- SELECCIONE UN TIPO -", new { id = "tipo", @class = "form-control kt_selectpicker", name = "tipo", data_live_search = "true", data_size = "5" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 kt-margin-b-20-tablet-and-mobile">
+                                <div class="kt-input-icon kt-input-icon--left">
+                                    <input type="text" class="form-control" placeholder="Buscar..." id="generalSearch">
+                                    <span class="kt-input-icon__icon kt-input-icon__icon--left">
+                                        <span><i class="la la-search"></i></span>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end: Search Form -->
+        </div>
+        <div class="kt-portlet__body kt-portlet__body--fit">
+            <!--begin: Datatable -->
+            <div class="kt_datatable" id="api_events"></div>
+            <!--end: Datatable -->
+            <!-- begin: Modal Detalle-->
+            <div class="modal fade" id="kt_modal_detalle" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="">Detallado de la orden</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="la la-remove"></span>
+                            </button>
+                        </div>
+                        <form class="kt-form kt-form--label-right">
+                            <div class="modal-body">
+                                <div class="kt-form kt-form--label-right">
+                                    <div class="kt-portlet__body">
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Nombre:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="nombre"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Llantas:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="llantas"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Potencia del motor:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="potencia"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Tipo:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="tipoString"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Tipo Combustible:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="tipoCombustible"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Placas:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="placas"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Marca:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="marca"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Linea:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="linea"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Modelo:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="modelo"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Serial:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="serial"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Tipo Uso:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="tipoUso"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-group-xs row">
+                                            <label class="col-4 col-form-label">Accesorio:</label>
+                                            <div class="col-8">
+                                                <span class="form-control-plaintext" id="accesorio"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-clean btn-sm btn-bold" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--end: Modal Detalle-->
+
+        </div>
+
+    </div>
+
+    <!--end::Row-->
+    <!--end::Dashboard 3-->
+</div>
+<!-- end:: Content -->
+
+@section Scripts {
+    <script type="text/javascript">
+
+        "use strict";
+        // Class definition
+
+        var KTDefaultDatatableDemo = function () {
+            // Private functions
+
+            // basic demo
+            var demo = function () {
+
+                var datatable = $('.kt_datatable').KTDatatable({
+                    // datasource definition
+                    data: {
+                        type: 'remote',
+                        source: {
+                            read: {
+                                url: '@Url.Action("PostJsonVehiculo", "Vehiculo")',
+                                method: 'POST'
+                                //params: {
+                                //    id: $('#tipo').val()
+                                //}
+                            },
+                        },
+                        pageSize: 10, // display 20 records per page
+                        serverPaging: true,
+                        serverFiltering: false,
+                        serverSorting: false,
+                        saveState: {
+                            cookie: false,
+                            webstorage: false
+                        },
+                    },
+
+                    // layout definition
+                    layout: {
+                        scroll: true, // enable/disable datatable scroll both horizontal and vertical when needed.
+                        height: 'auto', // datatable's body's fixed height
+                        footer: false, // display/hide footer
+                    },
+
+                    // column sorting
+                    sortable: true,
+
+                    // toolbar
+                    toolbar: {
+                        // toolbar placement can be at top or bottom or both top and bottom repeated
+                        placement: ['bottom'],
+
+                        // toolbar items
+                        items: {
+                            // pagination
+                            pagination: {
+                                // page size select
+                                pageSizeSelect: [5, 10, 20, 30, 50], // display dropdown to select pagination size. -1 is used for "ALl" option
+                            },
+                        },
+                    },
+
+                    search: {
+                        input: $('#generalSearch'),
+                    },
+
+                    // columns definition
+                    columns: [
+                        {
+                            field: 'Nombre',
+                            title: 'Nombre',
+                        }, {
+                            field: 'Placas',
+                            title: 'Placas',
+                        }, {
+                            field: 'TipoString',
+                            title: 'Tipo',
+                        }, {
+                            field: 'Activo',
+                            title: 'Activo',
+                            // callback function support for column rendering
+                            template: function (row) {
+                                var status = {
+                                    0: { 'title': 'INACTIVO', 'class': 'kt-badge--danger' },
+                                    1: { 'title': 'ACTIVO', 'class': 'kt-badge--success' },
+                                };
+                                return '<span class="kt-badge ' + status[row.Activo].class + ' kt-badge--inline kt-badge--pill">' + status[row.Activo].title + '</span>';
+                            },
+                        }, {
+                            field: 'Actions',
+                            title: 'Acciones',
+                            sortable: false,
+                            width: 110,
+                            overflow: 'visible',
+                            autoHide: false,
+                            textAlign: 'center',
+                            template: function (row) {
+                                var buttons = '';
+                                var edi = @ViewBag.Mof;
+
+                                if (edi) {
+                                    buttons = '<div class="dropdown">\
+                                    <a href="javascript:;" class="btn btn-sm btn-clean btn-icon btn-icon-md" data-toggle="dropdown">\
+                                        <i class="la la-cog"></i>\
+                                    </a>\
+                                        <div class="dropdown-menu dropdown-menu-right" >';
+
+                                    if (edi)
+                                        buttons += '<a class="dropdown-item" href="@Url.Content("~/Vehiculo/EditarVehiculo/")' + row.Id +'"><i class="la la-edit"></i> Editar</a>';
+
+                                    buttons += '</div></div>';
+                                }
+
+                                buttons += '<button data-record-id="' + row.Id + '" data-id="det" class="btn btn-sm btn-clean btn-icon btn-icon-md" title="Detalles" >\
+		                              <i class="la la-eye"></i></button>';
+
+                                return buttons;
+                            },
+                        }],
+                    translate: {
+                            records: {
+                                processing: 'Cargando...',
+                                noRecords: 'No se encontrarón registros',
+                            },
+                            toolbar: {
+                                pagination: {
+                                    items: {
+                                        default: {
+                                            first: 'Primero',
+                                            prev: 'Anterior',
+                                            next: 'Siguiente',
+                                            last: 'Último',
+                                            more: 'Más páginas',
+                                            input: 'Número de página',
+                                            select: 'Seleccionar tamaño de página',
+                                        },
+                                        info: 'Mostrando {{start}} - {{end}} de {{total}} registros',
+                                    },
+                                },
+                            },
+                        },
+                });
+
+                 datatable.on('click', '[data-record-id]', function () {
+                    var act = $(this).attr("data-id");
+                    switch (act) {
+                        case 'det':
+                            modalDetallado($(this).data('record-id'));
+                            $('#kt_modal_detalle').modal('show');
+                            break;
+                    }
+                });
+
+
+                $('#tipo').on('change', function () {
+                    datatable.search($(this).val().toLowerCase(),'TipoString');
+                });
+
+                $('#tipo').selectpicker();
+
+            };
+
+             var modalDetallado = function (id) {
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("PostJsonVehiculoId", "Vehiculo")',
+                    dataType: "json",
+                    data: { id: id },
+                    success: function (resp) {
+                        console.log(resp);
+                        $('#nombre').html(resp.Nombre);
+                        $('#llantas').html(resp.Llantas);
+                        $('#potencia').html(resp.Potencia);
+                        $('#tipoString').html(resp.TipoString);
+                        $('#tipoCombustible').html(resp.TipoCombustibleString);
+                        $('#placas').html(resp.Placas);
+                        $('#marca').html(resp.MarcaString);
+                        $('#linea').html(resp.LineaString);
+                        $('#modelo').html(resp.Modelo);
+                        $('#serial').html(resp.Serial);
+                        $('#tipoUso').html(resp.TipoUsoString);
+                        $('#accesorio').html(resp.AccesorioString);
+
+                    },
+                    error: function () {
+                        swal.fire('ERROR', 'OCURRIÓ UN ERROR AL ACCEDER A LA INFORMACIÓN', 'error');
+                    }
+                });
+
+            };
+
+            return {
+                // public functions
+                init: function () {
+                    demo();
+                },
+            };
+        }();
+
+        jQuery(document).ready(function () {
+            KTDefaultDatatableDemo.init();
+            //$('#tipo').on('change', function () {
+            //    var datatab = $('.kt_datatable').KTDatatable();
+            //    datatab.setDataSourceParam('id', $(this).val());
+            //    datatab.load();
+            //});
+        });
+
+    </script>
+}

@@ -1,0 +1,140 @@
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\DAO.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\DAO.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\ADOWrapper.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\Common.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\Entities.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.Mvc.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.Helpers.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\Common.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\Entities.pdb
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.Mvc.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.Helpers.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\obj\Release\DAO.dll
+C:\Users\Administrador\Documents\Visual Studio 2015\Projects\Coryep\DAO\obj\Release\DAO.pdb
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\DAO.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\DAO.pdb
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\ADOWrapper.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\Common.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\Entities.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.Mvc.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.Helpers.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\Common.pdb
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\Entities.pdb
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.Mvc.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.Helpers.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\obj\Release\DAO.dll
+C:\Users\SISTEMAS & IT\Documents\Visual Studio 2017\Projects\Coryep\DAO\obj\Release\DAO.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\DAO.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\DAO.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\ADOWrapper.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.Mvc.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.Helpers.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.WebPages.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Common.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Entities.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.Mvc.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.Helpers.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.WebPages.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\obj\Release\DAO.csprojAssemblyReference.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\obj\Release\DAO.csproj.CopyComplete
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\obj\Release\DAO.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\obj\Release\DAO.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\DAO.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\DAO.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\ADOWrapper.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Entities.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Entity.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.Mvc.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.Helpers.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.WebPages.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Common.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Entities.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Entity.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.Mvc.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.Helpers.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.WebPages.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\obj\Release\DAO.csprojAssemblyReference.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\obj\Release\DAO.csproj.CopyComplete
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\obj\Release\DAO.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC) - copia\DAO\obj\Release\DAO.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Entities.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\DAO\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\DAO.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\DAO.pdb
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\ADOWrapper.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Common.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Entities.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Microsoft.ReportViewer.WebForms.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.Mvc.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.Helpers.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.Razor.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.WebPages.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Common.pdb
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Entities.pdb
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.Mvc.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.Helpers.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.Razor.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.WebPages.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\System.Web.Mvc.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\System.Web.Helpers.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\System.Web.Razor.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\System.Web.WebPages.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\bin\Release\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\obj\Release\DAO.csproj.AssemblyReference.cache
+C:\Users\conta\source\repos\SaludDigna\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+C:\Users\conta\source\repos\SaludDigna\DAO\obj\Release\DAO.csproj.CopyComplete
+C:\Users\conta\source\repos\SaludDigna\DAO\obj\Release\DAO.dll
+C:\Users\conta\source\repos\SaludDigna\DAO\obj\Release\DAO.pdb

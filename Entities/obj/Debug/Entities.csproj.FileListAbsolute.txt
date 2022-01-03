@@ -1,0 +1,93 @@
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\bin\Debug\Entities.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\bin\Debug\Entities.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\obj\Debug\Entities.dll
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\obj\Debug\Entities.pdb
+C:\Users\a_gge\source\repos\CMG_SIA(MVC)\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\Entities.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\Entities.pdb
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\obj\Debug\Entities.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\CMG_SIA(MVC)\Entities\obj\Debug\Entities.pdb
+F:\TcaExercise\Entities\bin\Debug\Entities.dll
+F:\TcaExercise\Entities\bin\Debug\Entities.pdb
+F:\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+F:\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+F:\TcaExercise\Entities\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\TcaExercise\Entities\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+F:\TcaExercise\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+F:\TcaExercise\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+F:\TcaExercise\Entities\obj\Debug\Entities.csproj.CopyComplete
+F:\TcaExercise\Entities\obj\Debug\Entities.dll
+F:\TcaExercise\Entities\obj\Debug\Entities.pdb
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\bin\Debug\Entities.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\bin\Debug\Entities.pdb
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\obj\Debug\Entities.dll
+D:\Documentos\Visual Studio 2015\Projects\Web\TcaExercise\Entities\obj\Debug\Entities.pdb
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\Entities.dll
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\Entities.pdb
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\conta\Desktop\TcaExercise\Entities\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\conta\Desktop\TcaExercise\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\conta\Desktop\TcaExercise\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\conta\Desktop\TcaExercise\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\conta\Desktop\TcaExercise\Entities\obj\Debug\Entities.dll
+C:\Users\conta\Desktop\TcaExercise\Entities\obj\Debug\Entities.pdb
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\bin\Debug\Entities.dll
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\bin\Debug\Entities.pdb
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\obj\Debug\Entities.dll
+C:\Users\conta\Desktop\IntertelExercise\IntertelExercise\Entities\obj\Debug\Entities.pdb
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\Entities.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\Entities.pdb
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\conta\source\repos\SaludDigna\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\conta\source\repos\SaludDigna\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\conta\source\repos\SaludDigna\Entities\obj\Debug\Entities.dll
+C:\Users\conta\source\repos\SaludDigna\Entities\obj\Debug\Entities.pdb
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\bin\Debug\Entities.dll
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\bin\Debug\Entities.pdb
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\obj\Debug\Entities.dll
+C:\Users\conta\source\repos\PRUEBAGILA\Entities\obj\Debug\Entities.pdb

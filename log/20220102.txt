@@ -1,0 +1,6 @@
+DAO.Usuarios 15:44:05
+Login - Valor de tiempo de espera caducado. El periodo de tiempo de espera se agotó durante la fase previa al inicio de sesión. Es posible que la conexión agotara el tiempo de espera mientras esperaba que el servidor completara el proceso de inicio de sesión y respondiera; o bien, al intentar crear varias conexiones activas.  El tiempo invertido al intentar conectarse a este servidor fue: [Previo al inicio de sesión] inicialización=1594; protocolo de enlace=909; [Inicio de sesión] inicialización=0; autenticación=1; [Tras el inicio de sesión] completo=12640; 
+
+DAO.Vehiculos 17:00:34
+ObtenerPorId - La columna 'idLinea' no pertenece a la tabla Table.
+

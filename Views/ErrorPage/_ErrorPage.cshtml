@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "_ErrorPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="middle-box text-center animated fadeInDown">
+                <h1>@ViewBag.Error</h1>
+                <h3 class="font-bold">@ViewBag.Titulo</h3>
+
+                <div class="error-desc">
+                    @ViewBag.Description<br />
+                    Puedes volver a la página anterior: <br />
+                    <button class="btn btn-primary m-t btn-bold btn-upper btn-font-sm" onclick="goBack()">
+                        volver
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
